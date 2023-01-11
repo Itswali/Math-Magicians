@@ -1,4 +1,4 @@
-import './style/style.css';
+import './style/style.scss';
 import React, { Component } from 'react';
 import Calculator from './components/calculator';
 
