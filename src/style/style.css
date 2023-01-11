@@ -21,7 +21,6 @@ html {
 }
 
 .calculator-display {
-  width: 100%;
   font-size: 5rem;
   height: 80px;
   width: 600px;
@@ -35,7 +34,6 @@ html {
 
 button {
   height: 60px;
-  background-color: #fff;
   border-radius: 3px;
   border: 1px solid #c4c4c4;
   background-color: transparent;
@@ -82,6 +80,5 @@ button:hover {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-gap: 20px;
-  width: 100%;
   padding: 20px;
-}/*# sourceMappingURL=style.css.map */
+}
