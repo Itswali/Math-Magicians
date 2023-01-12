@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is my first React application that perform all the mathematical operation I created it using hooks ,component , props ,class and events features of React.
 
 **Math Magician** 
 
@@ -99,9 +99,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[key_feature_1] - Calculate every math number**
+- **[key_feature_2] - There's A clear button to reset all.**
+- **[key_feature_3] - You can get precise data upto 10 decimal point.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,7 +151,7 @@ Example commands:
 ```
 --->
 
-###INSTALL
+### INSTALL
 
 Before installing the app, make sure to install node.js in your machine. In order to check if node is installed run the following command:
 
