@@ -14,13 +14,13 @@ export default class Calculator extends Component {
   };
 
   render() {
-    const { total, operation, next } = this.state;
+    const { total, sign, next } = this.state;
     return (
       <div className="first">
         <div className="calculator-wrap">
           <div className="calculator-display">
             {total}
-            {operation}
+            {sign}
             {next}
           </div>
           <div className="calculator-keys">
