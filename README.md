@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -98,7 +99,7 @@ Example commands:
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
---->
+
 
 ### INSTALL
 
