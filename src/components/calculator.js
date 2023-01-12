@@ -69,9 +69,9 @@ export default class Calculator extends Component {
               type="button"
               onClick={this.buttonClicked}
               className="operator"
-              value="*"
+              value="x"
             >
-              &times;
+              x
             </button>
             <button type="button" onClick={this.buttonClicked} value="4">
               4
@@ -99,9 +99,16 @@ export default class Calculator extends Component {
             <button type="button" onClick={this.buttonClicked} value="3">
               3
             </button>
-            <button type="button" onClick={this.buttonClicked} className="operator" value="+">
+            <button
+              type="button"
+              onClick={this.buttonClicked}
+              className="operator"
+              value="+"
+            >
               +
             </button>
+          </div>
+          <div className="last-three">
             <button
               type="button"
               onClick={this.buttonClicked}
