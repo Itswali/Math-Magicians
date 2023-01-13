@@ -1,4 +1,4 @@
-<!-- TABLE OF CONTENTS -->
+<a name="readme-top"></a>
 
 # 📗 Table of Contents
 
@@ -26,7 +26,7 @@
 
 # 📖 Math Magician <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is my first React application that perform all the mathematical operation I created it using hooks ,component , props ,class and events features of React.
 
 **Math Magician** 
 
@@ -43,29 +43,15 @@
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[key_feature_1] - Calculate every math number**
+- **[key_feature_2] - There's A clear button to reset all.**
+- **[key_feature_3] - You can get precise data upto 10 decimal point.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,69 +86,62 @@ Example command:
  -->
 
 ### Setup
-
 Clone this repository to your desired folder:
 
-<!--
+```sh
+  git clone https://github.com/Itswali/Math-Magicians.git
+  cd Maths-Magiacians
+```
+
 Example commands:
 
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
---->
 
-### Install
+
+### INSTALL
+
+Before installing the app, make sure to install node.js in your machine. In order to check if node is installed run the following command:
+
+```sh
+  node -v
+```
 
 Install this project with:
 
-<!--
-Example command:
-
 ```sh
-  cd my-project
-  gem install
+  npm install
 ```
---->
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
+To run the project in a development server, execute the following command:
 
 ```sh
-  rails server
+  npm start
 ```
---->
 
-### Run tests
+### Testing
 
-To run tests, run the following command:
-
-<!--
-Example command:
+To run the tests in a development server, execute the following command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  npm test
 ```
---->
+
+To to build for the production, execute the following command:
+
+```sh
+  npm run build
+```
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+You can deploy this project using [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -183,9 +162,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Addition of a home page**
+- [ ] **Addition of a contact page**
+- [ ] **Show the calculator when user click the show Button.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
