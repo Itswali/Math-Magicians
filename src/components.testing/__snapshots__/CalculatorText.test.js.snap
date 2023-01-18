@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home SnapShot test  1`] = `
+<div>
+  <h2
+    style={
+      Object {
+        "fontSize": "3.5rem",
+        "fontWeight": "700",
+        "lineHeight": "1.5em",
+        "padding": "100px",
+      }
+    }
+  >
+    Lets Do Some Math!
+  </h2>
+</div>
+`;

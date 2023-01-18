@@ -5,11 +5,8 @@ export default function Home() {
   return (
     <div>
       <section className="middle">
-
-        <div className="welcome">
-          <h2>WELCOME TO OUR PAGE!</h2>
-        </div>
-        <div className="dummy-1">
+        <h2>WELCOME TO OUR PAGE!</h2>
+        <p className="home-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
           earum impedit vitae illum et est Lorem
           ipsum dolor sit amet consectetur adipisicing elit.
@@ -23,8 +20,8 @@ export default function Home() {
           quae. Veniam saepe delectus, reiciendis quae
           commodi magnam
           nostrum quas iusto rerum. Numquam,
-        </div>
-        <div className="dummy-2">
+        </p>
+        <p className="home-text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
           earum impedit vitae illum et est Lorem
           ipsum dolor sit amet consectetur adipisicing elit.
@@ -38,7 +35,7 @@ export default function Home() {
           quae. Veniam saepe delectus, reiciendis quae
           commodi magnam
           nostrum quas iusto rerum. Numquam,
-        </div>
+        </p>
       </section>
     </div>
   );
