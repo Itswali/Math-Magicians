@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home SnapShot test  1`] = `
+exports[`CalculatorText SnapShot test  1`] = `
 <div>
   <h2
     style={
