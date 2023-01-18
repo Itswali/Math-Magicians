@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import CalculatorText from '../components/CalculatorText';
 
-test('Home SnapShot test ', () => {
+test('CalculatorText SnapShot test ', () => {
   const component = renderer.create(
     <CalculatorText />,
   );
