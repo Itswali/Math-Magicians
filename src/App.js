@@ -32,12 +32,3 @@ function App() {
 }
 
 export default App;
-
-{ /* <nav className="navbar">
-      <div className="Title-name">MATH MAGICIANS</div>
-      <div className="nav-links">
-        <a href="/Home">HOME</a>
-        <a href="/Calculator">Calculator</a>
-        <a href="/Quote">QUOTE</a>
-      </div>
-    </nav> */ }
