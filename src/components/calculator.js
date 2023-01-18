@@ -2,21 +2,25 @@ import React, { useState } from 'react';
 import calculate from './logic/calculate';
 
 const Calculator = () => {
-  const [display, newDisplay] = useState({ total: 0, next: null, sign: null });
+  const [display, newDisplay] = useState({
+    total: 0,
+    next: null,
+    operation: null,
+  });
 
   const buttonClicked = (event) => {
     const btnName = event.target.innerText;
     const answer = calculate(display, btnName);
     newDisplay(answer);
   };
-  const { total, next, sign } = display;
+  const { total, next, operation } = display;
 
   return (
-    <div className="first">
+    <div>
       <div className="calculator-wrap">
         <div className="calculator-display">
           {total}
-          {sign}
+          {operation}
           {next}
         </div>
         <div className="calculator-keys">

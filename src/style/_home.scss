@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.Title-name {
+  font-size: 30px;
+  margin-left: 70px;
+}
+
+.nav-links {
+  justify-content: space-evenly;
+
+  a {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 12px;
+    margin: 10px;
+    border-right: 1px solid rgb(29, 22, 22);
+  }
+}
+
+.middle {
+  min-height: 80vh;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 50px;
+}
+
+.welcome {
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.dummy-1,
+.dummy-2 {
+  font-size: 27px;
+  width: 70%;
+  font-family: sans-serif;
+}
